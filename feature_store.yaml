@@ -1,0 +1,14 @@
+project: glorious_dragon
+registry: data/registry.db
+provider: aws
+online_store:
+  type: dynamodb
+  region: ap-northeast-1
+offline_store:
+  type: redshift
+  cluster_id: feast-test
+  region: ap-northeast-1
+  database: feast-test-db
+  user: awsuser
+  s3_staging_location: s3://feast-test
+  iam_role: arn:aws:iam::912538044325:role/Feast_test_Redshift
