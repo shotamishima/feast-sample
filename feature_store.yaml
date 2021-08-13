@@ -11,4 +11,4 @@ offline_store:
   database: feast-test-db
   user: awsuser
   s3_staging_location: s3://feast-test
-  iam_role: arn:aws:iam::912538044325:role/Feast_test_Redshift
+  iam_role: arn:aws:iam::{MY ACCOUNT}:role/Feast_test_Redshift
