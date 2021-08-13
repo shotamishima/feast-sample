@@ -1,15 +1,15 @@
-# Feastv 0.12 sample
+# Feast v0.12 sample
 
 ## Reference
  - https://docs.feast.dev/getting-started
 
 ## Prepare
-    - Create S3 bucket (optional)
-        Not use in tutorial.
-    - Create Redshift Cluster
-        - Need to assume IAM role to FullAccess to S3
-    - Create EC2 instance to execute feast core.
-        - Need to attach IAM role to FullAccess to S3, DynamoDB and Redshift.
+   - Create S3 bucket (optional)
+     - Not use in tutorial.
+   - Create Redshift Cluster
+     - Need to assume IAM role to FullAccess to S3
+   - Create EC2 instance to execute feast core.
+     - Need to attach IAM role to FullAccess to S3, DynamoDB and Redshift.
 
 ## Procedure
 - install feast for aws
