@@ -14,7 +14,7 @@
 ## Procedure
 - install feast for aws
 ```
-pip install 'feast[aws]'
+pip3 install 'feast[aws]'
 ```
 - create feature repository on local
 ```
